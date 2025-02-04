@@ -1,0 +1,839 @@
+@media screen and (max-width:600px) {
+
+    #header{
+        position:fixed;
+        z-index:1;
+        width:100%;
+        height:70px;
+        background:rgb(8, 155, 218);/*slateblue*/
+        box-shadow: 0px 0px 10px gray;
+        display:inline-block;
+        text-align:center;
+        }
+        #header .button{
+        outline:none;
+        border:none;
+        background:none;/*none*/
+        width:23%;
+        height:100%;
+        font-weight:bold;
+        font-size:20px;
+        font-family:"Cairo", serif;
+        color:white;
+        border-radius:3px;
+        transition:0.8;
+        cursor: pointer;
+        }
+        #header .button:hover{
+            background:#222;/*darkorange*/
+        }
+    
+        /*up screen*/
+        
+    .main{
+    width: 100%;
+    height: auto;
+    }
+    .main #StartPage{
+        width: 100%;
+        height: 600px;
+        display: block;
+ 
+        
+    }
+#right{
+        width: 100%;
+        height: 570px;
+
+    }
+ #talkness{
+        width: 100%;
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+    }
+    .main #StartPage h2{
+    width: fit-content;
+    height: fit-content;
+    font-family: "Cairo", serif;
+    font-weight: bold;
+    font-size: 22px;
+    word-spacing:3px;
+    }
+    .main #StartPage p{
+        font-family: "Cairo", serif;
+        font-weight: bold;
+        margin-top: 5px;
+        word-spacing: 3px;
+    }
+    .main #StartPage #right #talkness #down{
+        color: red;
+        cursor: pointer;
+    }
+    .main #StartPage #right #slider{
+        margin-top: 40px;
+        width: 100%;
+        height: 320px;
+        text-align: center;
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+    }
+    #marquee{
+
+   /*
+       background: url(images/image1.jpg);
+       background-size: 100%100%;
+       background-repeat: no-repeat;
+   */
+    width: 99%;
+    height: 320px;
+    }
+    .main #StartPage #right #slider #marquee .img{
+        margin-top: 2px;
+     /*just...*/
+        width: 50%;
+        height: 315px;
+        border-radius: 4px;
+    }
+    .main #StartPage #left{
+
+        display: none;
+    }  
+    .main #StartPage #left img{
+display: none;
+        
+    }
+    .up{
+        position: fixed;
+        bottom: 10px;
+        right: -30px;
+        z-index: 1;
+        color: white;
+        background-color: #ff5722;
+        font-weight: bold;
+       /* font-family:"Cairo", serif;*/
+       font-family: Arial,Tahoma; 
+       font-size: 15px;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: .2s;
+    }
+    .up.show{
+        right:10px;
+    }
+
+    .main #des{
+    width: 100%;
+    text-align: center;
+    }
+    main #des #pargraph{
+       /* margin-top: 70px;*/
+        width: 98%;
+        height: 500px;
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+        overflow-y: scroll;
+     
+    }
+    main .des .pargraph2{
+        margin-top: 70px;
+        width: 98%;
+        height: 500px;
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+        overflow-y: scroll;
+     
+    
+    }
+
+    main #des #description{
+    text-align: center;
+    width:100%;
+    margin-top:50px;
+    }
+    main .des .description a{
+        color: red;
+        cursor: pointer;
+    }
+    main .des .description h1{
+        font-family: "Cairo", serif;
+    font-weight: bold;
+    }
+    main .des .description h3{
+        margin-top: 5px;
+        width: fit-content;
+        height: fit-content;
+        font-family: "Cairo", serif;
+
+    }
+    #important{
+        color: red;
+    }
+    .title{
+    color: rgb(8, 155, 218);
+    }
+    .p{
+        
+    }
+    .footer{
+    width: 100%;
+    height: 270px;
+    background: black;
+    box-shadow:0px 0px 13px gray;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    }
+    #BoxItems{
+        width: 100%;
+        height: 160px;
+        display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    }
+    @keyframes Aniborder{
+    to{
+    border: 2px dashed red;
+    }
+    from{
+    border: none;
+    }
+    }
+    #BoxItems li{
+        width: fit-content;
+        height: fit-content;
+        color: red;
+    }
+    #BoxItems .a{
+        width: fit-content;
+        height: fit-content;
+        font-weight: bold;
+        font-family: "Cairo", serif;
+        font-size: 20px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .BoxItems .a:hover{
+        color: rgb(223, 40, 11);
+      
+    }
+    .end{
+        width: 100%;
+        height: auto;
+    
+    
+    }
+    .end p{
+        color: white;
+        font-weight: bold;
+        font-family: "Cairo", serif;
+    }
+    .end button{
+        color: rgb(8, 155, 218);
+        font-weight: bold;
+        font-family: "Cairo", serif;
+        width: 145px;
+        padding:7px;
+        outline: none;
+        background: none;
+        border: 1px solid rgb(8, 155, 218);
+        border-radius: 3px;
+        box-shadow: 0px 0px 12px gray;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+    .end button:hover{
+        background: rgb(8, 155, 218);
+        color: white;
+        transform: scale(1.1);
+        rotate: 3deg;
+      
+    }
+}
+@media screen  and (min-width:601px) and (max-width:800px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #header{
+        position:fixed;
+        z-index:1;
+        width:100%;
+        height:70px;
+        background:rgb(8, 155, 218);/*slateblue*/
+        box-shadow: 0px 0px 10px gray;
+        display:inline-block;
+        text-align:center;
+        }
+        #header .button{
+        outline:none;
+        border:none;
+        background:none;/*none*/
+        width:23%;
+        height:100%;
+        font-weight:bold;
+        font-size:20px;
+        font-family:"Cairo", serif;
+        color:white;
+        border-radius:3px;
+        transition:0.8;
+        cursor: pointer;
+        }
+        #header .button:hover{
+            background:#222;/*darkorange*/
+        }
+    
+        /*up screen*/
+        
+    .main{
+    width: 100%;
+    height: auto;
+    }
+    .main #StartPage{
+        width: 100%;
+        height: 600px;
+        display: block;
+ 
+        
+    }
+#right{
+        width: 100%;
+        height: 570px;
+
+    }
+ #talkness{
+        width: 100%;
+        padding-bottom: 20px;
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+    }
+
+    .main #StartPage #h2{
+    font-family: "Cairo", serif;
+    font-weight: bold;
+    font-size: 22px;
+    word-spacing:3px;
+    }
+    .main #StartPage p{
+        font-family: "Cairo", serif;
+        font-weight: bold;
+        margin-top: 5px;
+        word-spacing: 3px;
+    }
+    .main #StartPage #right #talkness #down{
+        color: red;
+        cursor: pointer;
+    }
+    .main #StartPage #right #slider{
+        margin-top: 40px;
+        width: 100%;
+        height: 450px;
+        text-align: center;
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+    }
+    .main #StartPage #left{
+
+        display: none;
+    }  
+    .main #StartPage #left img{
+display: none;
+        
+    }
+    .up{
+        position: fixed;
+        bottom: 10px;
+        right: -10px;
+        z-index: 1;
+        color: white;
+        background-color: #ff5722;
+        font-weight: bold;
+       /* font-family:"Cairo", serif;*/
+       font-family: Arial,Tahoma; 
+       font-size: 15px;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: .2s;
+    }
+    .up.show{
+        right:10px;
+    }
+
+    .main #des{
+        margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    }
+    .main #des #pargraph{
+       /* margin-top: 70px;*/
+        width: 98%;
+        height: 500px;
+        transform: skewY(0deg);
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+        overflow-y: scroll;
+     
+    }
+    .main #des #pargraph2{
+        margin-top: 50px;
+        width: 98%;
+        height: 500px;
+        transform: skewY(0deg);
+        border: 1px solid silver;
+        box-shadow: 0px 0px 13px gray;
+        border-radius: 5px;
+        overflow-y: scroll;
+     
+    
+    }
+
+    main #des #description{
+    text-align: center;
+    width:50%;
+    width: 50%;
+    margin-top:50px;
+    }
+    main .des .description a{
+        color: red;
+        cursor: pointer;
+    }
+    main .des .description h1{
+        font-family: "Cairo", serif;
+    font-weight: bold;
+    }
+    main .des .description h3{
+        margin-top: 5px;
+        width: fit-content;
+        height: fit-content;
+        font-family: "Cairo", serif;
+
+    }
+    #important{
+        color: red;
+    }
+    .title{
+    color: rgb(8, 155, 218);
+    }
+    .p{
+        
+    }
+    .footer{
+    width: 100%;
+    height: 270px;
+    background: black;
+    box-shadow:0px 0px 13px gray;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    }
+    #BoxItems{
+        width: 100%;
+        height: 160px;
+        display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    }
+    @keyframes Aniborder{
+    to{
+    border: 2px dashed red;
+    }
+    from{
+    border: none;
+    }
+    }
+    #BoxItems li{
+        width: fit-content;
+        height: fit-content;
+        color: red;
+    }
+    #BoxItems .a{
+        width: fit-content;
+        height: fit-content;
+        font-weight: bold;
+        font-family: "Cairo", serif;
+        font-size: 20px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .BoxItems .a:hover{
+        color: rgb(223, 40, 11);
+      
+    }
+    .end{
+        width: 100%;
+        height: auto;
+    
+    
+    }
+    .end p{
+        color: white;
+        font-weight: bold;
+        font-family: "Cairo", serif;
+    }
+    .end button{
+        color: rgb(8, 155, 218);
+        font-weight: bold;
+        font-family: "Cairo", serif;
+        width: 145px;
+        padding:7px;
+        outline: none;
+        background: none;
+        border: 1px solid rgb(8, 155, 218);
+        border-radius: 3px;
+        box-shadow: 0px 0px 12px gray;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+    .end button:hover{
+        background: rgb(8, 155, 218);
+        color: white;
+        transform: scale(1.1);
+        rotate: 3deg;
+      
+    }
+}
+/*scren for phone and tablet*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+DE+Grund+Guides&display=swap');
+body{
+    font-family:"Cairo", serif;
+}
+header {
+    position:fixed;
+    z-index:1;
+    width:100%;
+    height:70px;
+    background:rgb(8, 155, 218);/*slateblue*/
+    box-shadow: 0px 0px 10px gray;
+    display:inline-block;
+    text-align:center;
+    }
+    header button{
+    outline:none;
+    border:none;
+    background:none;/*none*/
+    width:19%;
+    height:100%;
+    font-weight:bold;
+    font-size:20px;
+    font-family:"Cairo", serif;
+    color:white;
+    border-radius:3px;
+    transition:0.7s;
+    cursor: pointer;
+    }
+    header button:hover{
+    background:#222;/*darkorange*/
+
+    }
+
+    /*up screen*/
+    
+main{
+width: 100%;
+height: auto;
+}
+main .StartPage{
+    width: 100%;
+    height: 600px;
+    
+}
+main .StartPage .right{
+    width: 68%;
+    height: 570px;
+    float: right;
+    text-align:right;
+}
+main .StartPage .right .talkness{
+    margin-right: 10px;
+    width: 100%;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 13px gray;
+    border-radius: 5px;
+}
+main .StartPage .right .talkness a{
+    color: red;
+    cursor: pointer;
+}
+main .StartPage h2{
+width: fit-content;
+height: fit-content;
+font-family: "Cairo", serif;
+font-weight: bold;
+font-size: 22px;
+word-spacing:3px;
+}
+main .StartPage p{
+    font-family: "Cairo", serif;
+    font-weight: bold;
+    margin-top: 5px;
+    word-spacing: 3px;
+}
+
+main .StartPage .right .slider{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 410px;
+    text-align: center;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 13px gray;
+    border-radius: 5px;
+    animation-name:Slider1;
+    animation-duration: 20s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    background-image: url(images/sooks.gif);
+    background-size: 100%100%;
+background-repeat: no-repeat;
+}
+@keyframes Slider1{
+    
+    10%{
+background-image: url(images/1.jpg);
+background-size: 100%100%;
+background-repeat: no-repeat;
+    }
+    20%{
+        background-image: url(images/2.jpg);
+        background-size: 100%100%;
+        background-repeat: no-repeat;
+    }
+    30%{
+        background-image: url(images/3.jpg);
+        background-size: 100%100%;
+        background-repeat: no-repeat;
+    }
+    40%{
+        background-image: url(images/4.jpg);
+        background-size: 100%100%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(images/5.jpg);
+        background-size: 100%100%;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background-image: url(images/6.jpg);
+        background-size: 100%100%;
+        background-repeat: no-repeat;
+    }
+}
+main .StartPage .right .slider marquee{
+text-align: center;
+}
+main .StartPage .right .slider marquee img{
+    margin-top: 2px;
+    margin-left: 5px;/*just...*/
+    width: 40%;
+    height: 315px;
+    border-radius: 4px;
+}
+main .StartPage .left{
+    text-align: center;
+    width: 29%;
+    height: 100%;
+    float: left;
+    margin-left: 4px;
+}  
+main .StartPage .left img{
+    width: 100%;
+    height: 85%;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 13px gray;
+    border-radius: 5px;
+    backdrop-filter: brightness(40%);
+    transition: 0.5s;
+    
+}
+.up{
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    z-index: 1;
+    color: white;
+    background-color: #ff5722;
+    font-weight: bold;
+   /* font-family:"Cairo", serif;*/
+   font-family: Arial,Tahoma; 
+   font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+}
+.up.show{
+    right:10px;
+}
+main .des{
+width: 100%;
+text-align: center;
+}
+main .des .pargraph{
+   /* margin-top: 70px;*/
+    width: 98%;
+    height: 500px;
+    transform: skewY(0deg);
+    border: 1px solid silver;
+    box-shadow: 0px 0px 13px gray;
+    border-radius: 5px;
+    overflow-y: scroll;
+ 
+}
+main .des .pargraph2{
+    margin-top: 70px;
+    width: 98%;
+    height: 500px;
+    transform: skewY(0deg);
+    border: 1px solid silver;
+    box-shadow: 0px 0px 13px gray;
+    border-radius: 5px;
+    overflow-y: scroll;
+ 
+
+}
+main .des .pargraph3{
+      margin-top: 40px;
+     width: 98%;
+   padding: 15px;
+     border: 1px solid silver;
+     box-shadow: 0px 0px 13px gray;
+     border-radius: 5px;
+     overflow-y: scroll;
+  
+ }
+ main .des .pargraph3 h3{
+    color: red;
+    font-weight: bold;
+    font-family: "Cairo", serif;
+    word-spacing: 3px;
+ }
+
+ main .des .pargraph3 p{
+    color: rgb(8, 155, 218);
+    font-weight: bold;
+    font-family: "Cairo", serif;
+    word-spacing: 3px;
+ }
+main .des .description{
+text-align: center;
+width:fit-content;
+width: 50%;
+margin-top:50px;
+}
+main .des .description a{
+    color: red;
+    cursor: pointer;
+}
+main .des .description h1{
+    font-family: "Cairo", serif;
+font-weight: bold;
+}
+main .des .description h3{
+    margin-top: 5px;
+    font-family: "Cairo", serif;
+font-weight: bold;
+}
+#important{
+    color: red;
+}
+.title{
+color: rgb(8, 155, 218);
+}
+
+footer{
+width: 100%;
+height: 270px;
+background: black;
+box-shadow:0px 0px 13px gray;
+margin-top: 70px;
+text-align: center;
+align-items: center;
+}
+.BoxItems{
+    width: 100%;
+    height: 160px;
+    display: flex;
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
+}
+@keyframes Aniborder{
+to{
+border: 2px dashed red;
+}
+from{
+border: none;
+}
+}
+.BoxItems li{
+    width: fit-content;
+    height: fit-content;
+    color: red;
+}
+.BoxItems a{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-weight: bold;
+    font-family: "Cairo", serif;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.BoxItems a:hover{
+    color: rgb(223, 40, 11);
+  
+}
+.end{
+    width: 100%;
+    height: auto;
+
+
+}
+.end p{
+    color: white;
+    font-weight: bold;
+    font-family: "Cairo", serif;
+}
+.end button{
+    color: rgb(8, 155, 218);
+    font-weight: bold;
+    font-family: "Cairo", serif;
+    width: 145px;
+    padding:7px;
+    outline: none;
+    background: none;
+    border: 1px solid rgb(8, 155, 218);
+    border-radius: 3px;
+    box-shadow: 0px 0px 12px gray;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.end button:hover{
+    background: rgb(8, 155, 218);
+    color: white;
+    transform: scale(1.1);
+    rotate: 3deg;
+  
+}
+#aa{
+text-decoration: none;
+}
+#aa img:hover{
+filter:drop-shadow(50%);
+}
